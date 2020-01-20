@@ -1,0 +1,38 @@
+{
+    "localitats": [{
+            "id": "1",
+            "name": "palma",
+            "weather": "Sol",
+            "max": 9,
+            "min": 8
+        },
+        {
+            "id": "2",
+            "name": "marratxi",
+            "weather": "Nublat",
+            "max": 9,
+            "min": 7
+        },
+        {
+            "id": "3",
+            "name": "capdepera",
+            "weather": "Pluja",
+            "max": 6,
+            "min": 5
+        },
+        {
+            "id": "4",
+            "name": "alcudia",
+            "weather": "Pluja",
+            "max": 6,
+            "min": 4
+        },
+        {
+            "id": "5",
+            "name": "porreres",
+            "weather": "Pluja",
+            "max": 4,
+            "min": 2
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h4 {
+    margin: 3px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mapa {
+    background: url('img/mallorca.png') no-repeat center;
+    background-size: 1250px 768px;
+    position: fixed;
+    height: 768px;
+    width: 1250px;
+}
+
+#palma {
+    position: absolute;
+    top: 425px;
+    left: 400px;
+    background: url('img/palma.png') no-repeat center;
+}
+
+#datos_palma {
+    position: absolute;
+    top: 310px;
+    left: 320px;
+}
+
+#marratxi {
+    position: absolute;
+    top: 390px;
+    left: 470px;
+    background: url('img/marratxi.png') no-repeat center;
+}
+
+#datos_marratxi {
+    position: absolute;
+    top: 280px;
+    left: 390px;
+}
+
+#porreres {
+    position: absolute;
+    top: 470px;
+    left: 680px;
+    background: url('img/porreres.png') no-repeat center;
+}
+
+#datos_porreres {
+    position: absolute;
+    top: 360px;
+    left: 600px;
+}
+
+#capdepera {
+    position: absolute;
+    top: 320px;
+    left: 1030px;
+    background: url('img/capdepera.png') no-repeat center;
+}
+
+#datos_capdepera {
+    position: absolute;
+    top: 285px;
+    left: 815px;
+}
+
+#alcudia {
+    position: absolute;
+    top: 180px;
+    left: 750px;
+    background: url('img/alcudia.png') no-repeat center;
+}
+
+#datos_alcudia {
+    position: absolute;
+    top: 235px;
+    left: 675px;
+}
+
+.localidad {
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.tarjeta {
+    height: 100px;
+    width: 200px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    z-index: 100;
+    padding: 3px;
+}
+
+.tarjeta p,
+.tarjeta h4 {
+    display: inline-block;
+}
+
+.tarjeta p {
+    margin: 0;
+    padding: 0;
+    float: right;
+    cursor: pointer;
+}
+
+.tarjeta td:nth-child(2) {
+    padding-left: 35px;
+    text-align: center;
+}
+
+.off {
+    display: none;
+}
