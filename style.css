@@ -7,6 +7,12 @@ h4 {
     margin: 3px;
 }
 
+#cambio {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
 #container {
     display: flex;
     justify-content: center;
@@ -98,7 +104,7 @@ h4 {
     height: 100px;
     width: 200px;
     background-color: #ccc;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-radius: 10px;
     z-index: 100;
     padding: 3px;
