@@ -18,4 +18,4 @@ Carlos Cánovas Servera .- IES Francesc de Borja Moll.
 
 ### Licencia 
 ---
-Licencia pública.
+GNU General Public License v3.0
